@@ -1,0 +1,32 @@
+{
+  "name": "web-to-markdown",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Extract article-like web pages to clean Markdown using Playwright.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0uda1/playwright-web-to-markdown.git"
+  },
+  "homepage": "https://github.com/k0uda1/playwright-web-to-markdown#readme",
+  "bugs": {
+    "url": "https://github.com/k0uda1/playwright-web-to-markdown/issues"
+  },
+  "keywords": [
+    "markdown",
+    "playwright",
+    "cli",
+    "article",
+    "web"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "extract": "node scripts/extract-page.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

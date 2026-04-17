@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# generated artifacts
+outputs/
+.playwright-mcp/
+
+# local env / secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
