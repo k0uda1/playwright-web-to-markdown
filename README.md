@@ -27,13 +27,19 @@ npx playwright install chromium
 Save a page to a specific file:
 
 ```bash
-npm run extract -- 'https://openai.com/ja-JP/index/harness-engineering/' 'outputs/openai-harness-engineering.md'
+npm run extract -- 'https://developers.openai.com/codex/sdk' 'outputs/codex-sdk.md'
 ```
 
 If you omit the output path, the tool writes to `outputs/<slug>.md`.
 
 ```bash
-npm run extract -- 'https://developers.openai.com/codex/sdk'
+npm run extract -- 'https://developers.openai.com/codex/use-cases'
+```
+
+It also works with Japanese article-like pages when the target site offers them, for example:
+
+```bash
+npm run extract -- 'https://openai.com/ja-JP/index/harness-engineering/' 'outputs/openai-harness-engineering-ja.md'
 ```
 
 ## Use Cases
